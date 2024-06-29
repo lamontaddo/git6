@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .header {
+        background-color: #f8f9fa;
+        padding: 20px;
+      }
+      .content {
+        margin-top: 20px;
+      }
+      .card {
+        margin-bottom: 20px;
+      }
+      .video-background {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+      }
+      #bg-video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">AddoTech</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/lamontaddo/"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/aboutme">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="header text-center">
+        <h1>About Me</h1>
+        <p>Full Stack Developer | Musician | Barber | Business Owner</p>
+      </div>
+
+      <div class="content">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Full Stack Developer</h3>
+                <p class="card-text">
+                  I have a deep love for technology and development. My
+                  expertise spans front-end and back-end development, creating
+                  seamless and efficient applications. Check out my
+                  <a href="https://github.com/lamontaddo/" target="_blank"
+                    >GitHub</a
+                  >
+                  page to see my latest projects and collaborations.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Musician</h3>
+                <p class="card-text">
+                  Music is my soul’s language. I play piano, drums, guitar, and
+                  sing. My albums are available on
+                  <a href="YOUR_SPOTIFY_LINK" target="_blank">Spotify</a>, where
+                  you can listen to the various genres I experiment with and the
+                  stories I tell through my music.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Barber</h3>
+                <p class="card-text">
+                  As a barber, I combine precision and creativity to provide
+                  top-notch grooming services. I believe in making every client
+                  look and feel their best.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">Business Owner</h3>
+                <p class="card-text">
+                  Running my own business allows me to merge my skills and
+                  passions into one cohesive endeavor. It’s a journey of growth,
+                  learning, and continuous innovation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-background">
+      <video autoplay muted loop id="bg-video">
+        <source src="bgVideo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/index.js" defer></script>
+  </body>
+</html>
